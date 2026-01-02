@@ -36,4 +36,4 @@ app.post('/registro', async (req, res) => {
   res.json({ ok: true });
 });
 
-app.listen(port, () => console.log(`Render SQLite on ${port}`)));
+app.listen(port, () => console.log(`Render SQLite on ${port}`));
